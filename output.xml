@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.6 on win32)" generated="20210713 17:44:39.156" rpa="false" schemaversion="2">
+<suite id="s1" name="Tag Tests" source="C:\Users\sdas\Desktop\12\RPA\tag_tests.robot">
+<test id="s1-t1" name="TC1">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Tc1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210713 17:44:39.184" endtime="20210713 17:44:39.185"/>
+</kw>
+<tag>alltests</tag>
+<tag>tests</tag>
+<status status="PASS" starttime="20210713 17:44:39.183" endtime="20210713 17:44:39.185"/>
+</test>
+<test id="s1-t2" name="TC2">
+<kw name="Log To Console" library="BuiltIn">
+<arg>TC2</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210713 17:44:39.187" endtime="20210713 17:44:39.188"/>
+</kw>
+<tag>alltests</tag>
+<tag>dtests</tag>
+<status status="PASS" starttime="20210713 17:44:39.186" endtime="20210713 17:44:39.190"/>
+</test>
+<test id="s1-t3" name="TC3">
+<kw name="Set Tags" library="BuiltIn">
+<arg>tc3</arg>
+<arg>tc3.1</arg>
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<msg timestamp="20210713 17:44:39.194" level="INFO">Set tags 'tc3' and 'tc3.1'.</msg>
+<status status="PASS" starttime="20210713 17:44:39.194" endtime="20210713 17:44:39.194"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>TC3</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210713 17:44:39.195" endtime="20210713 17:44:39.195"/>
+</kw>
+<tag>alltests</tag>
+<tag>dtests</tag>
+<tag>tc3</tag>
+<tag>tc3.1</tag>
+<status status="PASS" starttime="20210713 17:44:39.193" endtime="20210713 17:44:39.196"/>
+</test>
+<status status="PASS" starttime="20210713 17:44:39.158" endtime="20210713 17:44:39.198"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="3" fail="0" skip="0">alltests</stat>
+<stat pass="2" fail="0" skip="0">dtests</stat>
+<stat pass="1" fail="0" skip="0">tc3</stat>
+<stat pass="1" fail="0" skip="0">tc3.1</stat>
+<stat pass="1" fail="0" skip="0">tests</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Tag Tests">Tag Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
